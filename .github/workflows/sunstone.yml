@@ -1,4 +1,4 @@
-name: Recovery Build
+name: Sunstone Recovery Build
 
 on:
   workflow_dispatch:
@@ -14,11 +14,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: ''
+        default: 'https://github.com/Vaaavito/device_xiaomi_sunstone-recovery.git'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: '12.1'
+        default: 'android-12.1'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
